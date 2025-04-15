@@ -1,0 +1,21 @@
+{
+  "name": "soft-tok-components",
+  "version": "0.0.20",
+  "description": "Biblioteca de componentes Angular con estilos personalizados",
+  "author": "Mario",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/angular-library-grupo1"
+  },
+  "keywords": ["angular", "components", "library", "styles"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}

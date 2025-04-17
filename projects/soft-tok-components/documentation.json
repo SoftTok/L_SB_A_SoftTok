@@ -14,7 +14,7 @@
                 "name": "Large",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -64,16 +64,6 @@
                 "name": "meta",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "type": "Meta<ButtonComponent>",
-                "defaultValue": "{\r\n  title: 'Components/Button',\r\n  component: ButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    },\r\n  },\r\n  // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args\r\n  args: { onClick: fn() },\r\n}"
-            },
-            {
-                "name": "meta",
-                "ctype": "miscellaneous",
-                "subtype": "variable",
                 "file": "projects/soft-tok-components/src/stories/components/header/header.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
@@ -91,6 +81,16 @@
                 "defaultValue": "{\r\n  title: 'Components/Page',\r\n  component: PageComponent,\r\n  parameters: {\r\n    // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout\r\n    layout: 'fullscreen',\r\n  },\r\n}"
             },
             {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<ButtonComponent>",
+                "defaultValue": "{\r\n  title: 'Components/Buttons/Button',\r\n  component: ButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    },\r\n  },\r\n  // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args\r\n  args: { onClick: fn() },\r\n}"
+            },
+            {
                 "name": "preview",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -104,7 +104,7 @@
                 "name": "Primary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -114,7 +114,7 @@
                 "name": "Secondary",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -124,7 +124,7 @@
                 "name": "Small",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
-                "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
@@ -133,17 +133,6 @@
         ],
         "functions": [],
         "typealiases": [
-            {
-                "name": "Story",
-                "ctype": "miscellaneous",
-                "subtype": "typealias",
-                "rawtype": "StoryObj<ButtonComponent>",
-                "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
-                "deprecated": false,
-                "deprecationMessage": "",
-                "description": "",
-                "kind": 183
-            },
             {
                 "name": "Story",
                 "ctype": "miscellaneous",
@@ -165,16 +154,27 @@
                 "deprecationMessage": "",
                 "description": "",
                 "kind": 183
+            },
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<ButtonComponent>",
+                "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 183
             }
         ],
         "enumerations": [],
         "groupedVariables": {
-            "projects/soft-tok-components/src/stories/components/button/button.stories.ts": [
+            "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts": [
                 {
                     "name": "Large",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                    "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -184,17 +184,17 @@
                     "name": "meta",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                    "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Meta<ButtonComponent>",
-                    "defaultValue": "{\r\n  title: 'Components/Button',\r\n  component: ButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    },\r\n  },\r\n  // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args\r\n  args: { onClick: fn() },\r\n}"
+                    "defaultValue": "{\r\n  title: 'Components/Buttons/Button',\r\n  component: ButtonComponent,\r\n  tags: ['autodocs'],\r\n  argTypes: {\r\n    backgroundColor: {\r\n      control: 'color',\r\n    },\r\n  },\r\n  // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args\r\n  args: { onClick: fn() },\r\n}"
                 },
                 {
                     "name": "Primary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                    "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -204,7 +204,7 @@
                     "name": "Secondary",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                    "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -214,7 +214,7 @@
                     "name": "Small",
                     "ctype": "miscellaneous",
                     "subtype": "variable",
-                    "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                    "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
@@ -301,19 +301,6 @@
         "groupedFunctions": {},
         "groupedEnumerations": {},
         "groupedTypeAliases": {
-            "projects/soft-tok-components/src/stories/components/button/button.stories.ts": [
-                {
-                    "name": "Story",
-                    "ctype": "miscellaneous",
-                    "subtype": "typealias",
-                    "rawtype": "StoryObj<ButtonComponent>",
-                    "file": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
-                    "deprecated": false,
-                    "deprecationMessage": "",
-                    "description": "",
-                    "kind": 183
-                }
-            ],
             "projects/soft-tok-components/src/stories/components/header/header.stories.ts": [
                 {
                     "name": "Story",
@@ -339,6 +326,19 @@
                     "description": "",
                     "kind": 183
                 }
+            ],
+            "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<ButtonComponent>",
+                    "file": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 183
+                }
             ]
         }
     },
@@ -358,7 +358,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "filePath": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -368,7 +368,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "filePath": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -378,7 +378,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "filePath": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -388,7 +388,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "filePath": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -398,7 +398,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "filePath": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "type": "variable",
                 "linktype": "miscellaneous",
                 "linksubtype": "variable",
@@ -408,7 +408,7 @@
                 "status": "low"
             },
             {
-                "filePath": "projects/soft-tok-components/src/stories/components/button/button.stories.ts",
+                "filePath": "projects/soft-tok-components/src/stories/components/buttons/button/button.stories.ts",
                 "type": "type alias",
                 "linktype": "miscellaneous",
                 "linksubtype": "typealias",

@@ -10,3 +10,5 @@ export * from './stories/components/button/button.component';
 export * from './stories/components/header/header.component';
 export * from './stories/components/page/page.component';
 export * from './stories/user';
+export * from './lib/web-components/web-components.module';
+export { registerWebComponents } from './lib/web-components/web-components';
